@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        .dark {
+            padding: 15px;
+            background: #333;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>个人网页</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>关于我</li>
+                    <li>工作经验</li>
+                    <li>项目展示</li>
+                    <li>联系信息</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="showcase">
+        <div class="container">
+            <h1>欢迎来到我的个人网页</h1>
+            <p>这里展示了我的个人简介、工作经验和一些项目。</p >
+        </div>
+    </section>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>关于我</h2>
+            <p>我是一个充满激情的软件开发者，拥有丰富的项目经验和扎实的技术背景。我喜欢学习新技术并将其应用到实际项目中。</p >
+        </div>
+    </section>
+    
+    <section id="experience" class="section dark">
+        <div class="container">
+            <h2>工作经验</h2>
+            <p>在XYZ公司担任软件工程师三年，负责多个关键项目的开发和维护。</p >
+            <p>在ABC公司担任前端开发工程师两年，专注于用户界面设计和开发。</p >
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>项目展示</h2>
+            <p>项目一：在线商城网站开发</p >
+            <p>项目二：移动端应用程序开发</p >
+            <p>项目三：数据分析工具开发</p >
+        </div>
+    </section>
+    
+    <section id="contact" class="section dark">
+        <div class="container">
+            <h2>联系信息</h2>
+            <p>电子邮件: example@example.com</p >
+            <p>电话: 123-456-7890</p >
+            <p>LinkedIn: </p >
+        </div>
+    </section>
+    
+    <footer>
+        <p>个人网页 &copy; 2024</p >
+    </footer>
+</body>
+</html>
